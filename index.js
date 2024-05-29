@@ -65,7 +65,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://admin:Foradmin2030@backenddb.btjxol9.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB"
+    //mongoDBURL HERE
   )
   .then(() => {
     console.log("Connected to the database!");
